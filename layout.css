@@ -1,0 +1,67 @@
+body { background: #363636; color: aliceblue; }
+
+.alerta {
+	font-family: 'Hind', sans-serif; font-weigth: 800; text-align: center;
+	color: #990000; border-left: 5px solid red; background-color: #ff6666;
+	width: 300px; padding: 5px;
+	border-radius: 5px;
+}
+
+h1 {
+	color: aliceblue; font-size: 3rem; font-weight: 50;
+	text-align: center; margin: 1rem 0 3rem;  font-family: 'Hind', sans-serif;
+}
+
+.annote{ color: #e60073; font-weight: 800; }
+.inputDiv{ display: flex; justify-content: center; align-items: center; }
+
+.campoInserir{
+  	padding: 0.5rem 1rem; outline: none; border: none;
+    height: 50px; border-radius: 25px; width: 350px;
+    margin: 0.25rem; transition: .5s; font-size: 1.15rem;
+    background-color: pink;
+}
+
+.campoInserir:focus {
+	box-shadow: 0px 0px 10px pink,
+			    0px 0px 40px pink,
+			    0px 0px 80px pink;
+}
+
+.adicionar{
+	outline: none; border: none; height: 50px;
+    border-radius: 25px; width: 50px; background-color: #e60073;
+    color: white; cursor: pointer; transition: .5s; margin: 0.25rem;
+}
+
+.adicionar:hover{ opacity: 0.7; }
+
+.listaTarefas{
+	display: flex; flex-direction: column; align-items: center;
+	text-align: center; margin-top: 2rem; overflow: auto; height: 250px;
+}
+
+.item{
+	padding: 0.5rem; border-bottom: 4px solid ghostwhite;
+	margin-bottom: 1.5rem; color: aliceblue;
+}
+
+.item_input{
+	background: none; outline: none; border: none;
+	color: var(--fundo-primario); font-size: 1.4rem;
+	width: 650px;
+}
+
+/* Provavelmente estas classes serão atribuídas a botões
+após automatização de armazenamento no banco de dados */
+.edit{
+	background: none; outline: none; border: none;
+	color: #e60073; font-size: 1.4rem; font-family: 'Hind', sans-serif;
+	margin: 0 0.5rem; cursor: pointer;
+}
+
+.remove{
+	background: none; outline: none; border: none;
+	color: #E00; font-size: 1.4rem; font-family: 'Hind', sans-serif;
+	cursor: pointer;
+}

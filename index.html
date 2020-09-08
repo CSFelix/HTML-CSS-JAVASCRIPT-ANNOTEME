@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>..:: AnnoteMe ::..</title>
+    <link href="https://fonts.googleapis.com/css?family=Hind&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="layout.css">
+</head>
+<body>
+
+	<!-- Título -->
+    <h1>
+	<ruby>
+		<span class="annote">Annote</span>Me!<rt>Annote <span class="annote">Your Tasks!</span></rt>
+	</ruby>
+	</h1>
+	
+	<!-- Input para adicionar taregas -->
+    <div class="inputDiv">
+    	   <input pattern="[a-zA-Z0-9_!#().@ ]{1, 100}" type="text" class="campoInserir" placeholder="Digite suas tarefas...">
+    	   <button class="adicionar"><i class="fas fa-plus"></i></button>
+    </div>
+
+	<!-- Lista das tarefas -->
+    <div class="listaTarefas">
+    </div>
+    
+    <!-- Mensagem >> vou retirar ela assim que automatizar para armazenamento no banco de dados -->
+    <center><p class="alerta">Cuidado?! As tarefas são perdidas ao apagar o histórico do navegador.</p></center>
+</body>
+
+    <script type="text/javascript" src="font-awesome.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+</html>
