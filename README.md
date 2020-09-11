@@ -30,3 +30,12 @@
 ### `🎁 Bonus 🎁`
 
 * Private Mode: all tasks added in browser's private mode will be deleted when you close the software (private mode doesn't save cache).
+
+----
+### `✉️ Contact ✉️`
+
+> **Email:** `gabrielfelix08@outlook.com`
+
+> **Linkedin:** `---`
+
+> **Instagram:** `---`
