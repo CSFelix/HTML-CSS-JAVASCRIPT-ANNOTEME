@@ -32,13 +32,13 @@
 * Private Mode: all tasks added in browser's private mode will be deleted when you close the software (private mode doesn't save cache).
 
 ----
-### `✉️ Contact ✉️`
+### `📫 Reach Me 📫`
 
-> **Email:** `csfelix08@gmail.com`
+> **Email:** **[csfelix08@gmail.com](mailto:csfelix08@gmail.com?)**
 
-> **Linkedin:** `linkedin.com/in/csfelix/`
+> **Linkedin:** **[linkedin.com/in/csfelix/](https://www.linkedin.com/in/csfelix/)**
 
-> **Instagram:** `instagram.com/c0deplus/`
+> **Instagram:** **[instagram.com/c0deplus/](https://www.instagram.com/c0deplus/)**
 
 ----
 
